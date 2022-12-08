@@ -550,9 +550,10 @@ img {
 }
 
 .customer {
-  box-sizing: border-box;
   width: 168px;
   height: 88px;
+  box-sizing: border-box;
+
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
@@ -565,11 +566,12 @@ img {
   margin-left: 24px;
 }
 
-.customer-icon:hover,
-.customer-icon:focus,
-.customer-icon:active {
+.customer:hover,
+.customer:focus,
+.customer:active {
   fill: #4d5ae5;
   border: 1px solid #4d5ae5;
+  border-radius: 4px;
 }
 
 .section-title.customers-heading {
